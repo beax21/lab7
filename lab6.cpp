@@ -22,5 +22,5 @@ int main()
     else if (c > 0 && a == 0) f = x - a * a * a / -c;
     else f = (a * x + 5 * b);
     cout << setw(8) << setprecision(3) << "F=" << f << endl;
-
+    //LAB7 OPI
 }
