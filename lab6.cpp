@@ -21,6 +21,6 @@ int main()
     if (c < 0 && a != 0) f = -a * x * x * x - b / c;
     else if (c > 0 && a == 0) f = x - a * a * a / -c;
     else f = (a * x + 5 * b);
-    cout << setw(8) << setprecision(3) << "F=" << f << endl;
-    //LAB7 OPI
+    cout << setw(8) << setprecision(4) << "F=" << f << endl;
+    
 }
